@@ -1,0 +1,17 @@
+:root {
+  /* Brand colors */
+  --md-primary-fg-color: #D32F2F;   /* Pylord Red */
+  --md-accent-fg-color: #FFB300;    /* Pylord Amber */
+
+  /* Light mode text overrides */
+  --md-typeset-color: #212121;
+  --md-typeset-a-color: #D32F2F;
+
+  /* Dark mode tweaks */
+  [data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #EF5350;
+    --md-accent-fg-color: #FFC107;
+    --md-typeset-color: #E0E0E0;
+    --md-typeset-a-color: #EF5350;
+  }
+}
